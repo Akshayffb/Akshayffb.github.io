@@ -2,32 +2,37 @@
 <html lang="en">
 <head>
     <title>OUR TEAM</title>
-    <link rel="icon" href="img/logoa.png">
-
-    <link rel="stylesheet" href="teachme.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-    <div class="navbar">
-        <div class="logo">
-                <a href="https://akshayffb.github.io/"><img src="img/logoa.png" title="TeachMe" alt="TeachMe logo"></a>            <!-- <h3>TeachMe</h3> -->
+        <link rel="stylesheet" href="teachme.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="img/logoa.png">
+        <title>TeachMe</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="logo">
+                <a href="https://akshayffb.github.io/"><img src="img/logoa.png" title="TeachMe" alt="TeachMe logo"></a>
+                <!-- <h3>TeachMe</h3> -->
+            </div>
+<!--             id="myLinks" -->
+            <div class="nav-links" id="myLinks">
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="./about.html">ABOUT</a>
+                </li>
+                <li>
+                    <a href="./ourteam.html">OUR TEAM</a>
+                </li>
+                <li>
+                    <a href="service.html">SERVICES</a>
+                </li>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
         </div>
-        <div class="nav-links">
-            <li>
-                <a href="index.html">HOME</a>
-            </li>
-            <li>
-                <a href="./about.html">ABOUT</a>
-            </li>
-            <li>
-                <a href="./ourteam.html">OUR TEAM</a>
-            </li>
-            <li>
-                <a href="service.html">SERVICES</a>
-
-            </li>
-        </div>
-    </div>
 
     <div class="ot-header">
         <h1>OUR TEAM</h1>
@@ -68,5 +73,18 @@
             <i class="fa-brands fa-twitter-square"></i>
         </div>
     </div>
+        
+         <script>
+            function myFunction() {
+              var x = document.getElementById("myLinks");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+            </script>
+        
+        
 </body>
 </html>
