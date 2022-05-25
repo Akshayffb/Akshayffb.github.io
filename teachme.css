@@ -338,6 +338,11 @@ border-radius: 18px;
 }
 
 
+.icon{
+    display: none;
+}
+
+
 /* 
 @media only screen and (max-width: 600px){
 
@@ -395,7 +400,15 @@ border-radius: 18px;
         align-items: center;
         background-color: rgb(54, 54, 54);
         padding: 20px;
+        overflow: hidden;
+        height: auto;
+        position: relative;
     }
+
+    .navbar #myLinks {
+        display: none;
+      }
+      
     
     .nav-links{
         display: flex;
@@ -411,7 +424,21 @@ border-radius: 18px;
         font-family: sans-serif;
         font-weight: bold;
         color: grey;
+
+        padding: 14px 94px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      
     }
+
+    .navbar a.icon {
+        display: block;
+        right: 0;
+        top: 0;
+      }
+
+     
 
     .header{
         background-image: url(img/pexels-pixabay-301943.jpg);
@@ -487,7 +514,6 @@ border-radius: 18px;
         width: revert;
         height: 250px;
     }
-
 
 
 }
