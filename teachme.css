@@ -435,7 +435,7 @@ border-radius: 18px;
      .navbar a.icon {
         display: block;
         right: 0;
-        position: fixed;
+        position: absolute;
         padding: inherit;
       }
 
