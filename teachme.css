@@ -432,11 +432,13 @@ border-radius: 18px;
       
     }
 
-    .navbar a.icon {
+     .navbar a.icon {
         display: block;
         right: 0;
-        top: 0;
+        position: fixed;
+        padding: inherit;
       }
+
 
      
 
