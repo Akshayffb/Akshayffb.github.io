@@ -408,6 +408,13 @@ nav .ull li a:hover::after{
 
 
 
+#progres::after{
+    content: attr(value)'%';
+    margin: 14px 0 0 103%;
+}
+
+
+
 
 
 
