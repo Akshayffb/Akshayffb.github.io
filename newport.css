@@ -515,6 +515,10 @@ nav .ull li a:hover::after{
 
 @media only screen and (max-width: 500px){
     
+    nav{
+        display : block;
+    }
+    
     .resume .resume-donload{
         display: block;
     }
@@ -562,7 +566,37 @@ nav .ull li a:hover::after{
     
     
     .main-text .sub1-text img {
-     width : 50%;   
+     width : 62%;   
+        
+    }
+    
+    
+    
+    .main-text .sub-text button{
+     width : 45%;
+     height : 35px;
+    }
+    
+    
+    .main-text .sub-text button {
+        left: 32%;
+    bottom: 15px;
+    font-size : 13px;   
+
+    }
+    
+    
+    .main-text .sub-text h1 {
+        font-size : 1.5rem;
+    }
+    
+    .main-text .sub-text h3 {
+     font-size : 15px;   
+    }
+    
+    
+    .sub1-text {
+     display : flex;   
         
     }
     
