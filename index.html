@@ -26,11 +26,14 @@
                   </ul>
               </div>
 
-              <ul class="ull">
+              <ul class="ull" id="navbarrr">
                   <li><a href="#about">About</a></li>
                   <li><a href="#work">My Work</a></li>
                   <li><a href="#">Resume</a></li>
                   <li><a href="#">Contact me?</a></li>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                  </a>
               </ul>
 
             </nav>
@@ -285,6 +288,19 @@
       
 
   </div>
+    
+    
+<!--  for responsive navbar    -->
+    <script>
+function myFunction() {
+  var x = document.getElementById("navbarrr");
+  if (x.className === "ull") {
+    x.className += " responsive";
+  } else {
+    x.className = "ull";
+  }
+}
+</script>
 
 </body>
 </html>
