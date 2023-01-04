@@ -555,6 +555,18 @@ nav .ull li a:hover::after{
     }
     
     
+    .main-text{
+     display : block;   
+        
+    }
+    
+    
+    .main-text .sub1-text img {
+     width : 50%;   
+        
+    }
+    
+    
     
     
     
