@@ -550,7 +550,8 @@ nav .ull li a:hover::after{
     
     .sub1-main .sub1-main-text p{
             font-size: 12px;   
-        
+            width: 105%;
+            letter-spacing: normal;
     }
     
     
